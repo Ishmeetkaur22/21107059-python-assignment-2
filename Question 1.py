@@ -1,4 +1,4 @@
-a = input("Put in the input\n")
+a = "Python is a case sensitive language"
 
 b = len(a)
 
@@ -18,6 +18,6 @@ print(a_1)
 f = a.find("a")
 print('Index of "a" substring in input string is:',f)
 
-g = a_1.replace(" ", "")
+g = a.replace(" ", "")
 
 print(g)
